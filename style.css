@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: sans-serif;
+}
+body{
+    background-image: url(bg.avif);
+    background-attachment: fixed;
+    background-size: cover;
+}
+div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    height: 200px;
+    width: 700px;
+    background: linear-gradient(to left,rgba(0,0,0,0.98),rgba(0,0,0,0.78));
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0%; 
+    padding-top: 2rem;           
+}
+h2{
+    color: white;
+    padding-bottom: 2rem;
+    font-size: 35px;
+}
